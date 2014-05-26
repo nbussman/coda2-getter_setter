@@ -48,7 +48,7 @@
 			<key>input</key>
 			<string>document</string>
 			<key>keyEquivalent</key>
-			<string></string>
+			<string>~^g</string>
 			<key>keyEquivalentConflict</key>
 			<false/>
 			<key>name</key>
@@ -70,7 +70,7 @@
 			<key>input</key>
 			<string>document</string>
 			<key>keyEquivalent</key>
-			<string></string>
+			<string>~^s</string>
 			<key>keyEquivalentConflict</key>
 			<false/>
 			<key>name</key>
@@ -87,6 +87,8 @@
 			<string>none</string>
 			<key>input</key>
 			<string>document</string>
+			<key>keyEquivalent</key>
+			<string></string>
 			<key>keyEquivalentConflict</key>
 			<false/>
 			<key>name</key>
@@ -121,6 +123,8 @@
 			<string>none</string>
 			<key>input</key>
 			<string>document</string>
+			<key>keyEquivalent</key>
+			<string></string>
 			<key>keyEquivalentConflict</key>
 			<false/>
 			<key>name</key>

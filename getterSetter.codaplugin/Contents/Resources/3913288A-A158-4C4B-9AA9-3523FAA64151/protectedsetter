@@ -18,10 +18,12 @@ fclose($fp);
 
 foreach ($variables as $variable)
 {
-    echo "public function set_".$variable."(\$value){
-    \$this->".$variable." = \$value;
+    echo <<<eof
+public function set_{$variable} ( \$value ) {
+	\$this->{$variable} = \$value;
 }
-";
+
+eof;
 }
 
 ?>
