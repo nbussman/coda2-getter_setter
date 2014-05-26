@@ -18,10 +18,12 @@ fclose($fp);
 
 foreach ($variables as $variable)
 {
-    echo "public function get_".$variable."(){
-    return $".$variable.";
+    echo <<<eof
+public function get_{$variable} () {
+	return \$this->{$variable};
 }
-";
+
+eof;
 }
 
 ?>
